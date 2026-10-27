@@ -1,0 +1,34 @@
+# Download the GTSRB dataset separately.
+/Train/
+/Test/
+/Meta/
+/train/
+/test/
+/meta/
+/Train.csv
+/Test.csv
+/Meta.csv
+/gtsrb_data/
+/data/
+*.zip
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+.streamlit/secrets.toml
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+-r requirements.txt
+opencv-python-headless
+pandas
+matplotlib
+scikit-learn
